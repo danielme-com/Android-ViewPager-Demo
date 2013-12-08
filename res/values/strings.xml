@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ViewPager Demo - danielme.com</string>
+    <string name="one">One</string>
+    <string name="two">Two</string>
+    <string name="four">Four</string>
+
+</resources>
