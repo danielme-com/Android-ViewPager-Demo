@@ -37,7 +37,7 @@ public class MainActivity extends Activity
 		setContentView(R.layout.main);
 		viewPager = (ViewPager) findViewById(R.id.pager);
 		viewPager.setAdapter(new MainPageAdapter());
-		viewPager.setOnPageChangeListener(new OnPageChangeListener() {
+		viewPager.addOnPageChangeListener(new OnPageChangeListener() {
 			
 			@Override
 			public void onPageSelected(int position)
